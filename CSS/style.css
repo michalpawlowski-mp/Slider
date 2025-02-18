@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url("/IMG/bg.jpg") no-repeat center/cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#slider #top-row {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#slider .slide {
+  display: none;
+  width: 100%;
+  flex: 1;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+#slider .slide.active {
+  display: block;
+}
+#slider #bottom-row {
+  display: flex;
+  justify-content: center;
+}
+
+#dots {
+  margin-top: 10px;
+  display: flex;
+  padding: 5px 10px 5px 0;
+  border-radius: 2px;
+}
+#dots .dot {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 0 0 37px 3px rgb(0, 0, 0);
+}
+
+.arrow {
+  margin: 0 15px;
+}
+
+.arrow,
+.dot {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
