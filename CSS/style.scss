@@ -14,7 +14,7 @@ html,
 body {
   width: 100vw;
   height: 100vh;
-  background: url("/IMG/bg.jpg") no-repeat center/cover;
+  background: url("../IMG/bg.jpg") no-repeat center/cover;
   overflow: hidden;
   @include flex-center;
 }
