@@ -20,12 +20,8 @@ arrowRight.addEventListener("click", () => {
   showSlide(activeSlideNumber);
 });
 
-const hideSlide = () => {
-  const activeSlide = document.querySelector(".active");
-  activeSlide.classList.remove("active");
-};
 const showSlide = (slideNumber) => {
-  hideSlide();
+  document.querySelector(".active").classList.remove("active");
   let slideToShow = slides[slideNumber - 1];
   if (slideToShow) {
     slideToShow.classList.add("active");
