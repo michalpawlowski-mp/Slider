@@ -16,4 +16,4 @@ Prosty, responsywny slider zdjęć, zbudowany w oparciu o czysty HTML, CSS (Sass
 
 ### Zobacz projekt
 
-[Projekt](https://michalpawlowski-mp.github.io/Slider/])
+[Projekt](https://michalpawlowski-mp.github.io/Slider/)
